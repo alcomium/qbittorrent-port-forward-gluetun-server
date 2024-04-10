@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: alconium/python
+          images: alconium/qbittorrent-port-forward-gluetun-server
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
